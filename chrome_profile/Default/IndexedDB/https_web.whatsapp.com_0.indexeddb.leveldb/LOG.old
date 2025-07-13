@@ -1,0 +1,15 @@
+2025/07/13-20:35:53.006 27d4 Reusing MANIFEST C:\Users\ACER\OneDrive\डेस्कटॉप\sub window ai v2\sub-window-ai-api\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/13-20:35:53.008 27d4 Recovering log #68
+2025/07/13-20:35:53.040 27d4 Reusing old log C:\Users\ACER\OneDrive\डेस्कटॉप\sub window ai v2\sub-window-ai-api\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000068.log 
+2025/07/13-20:35:55.747 4388 Level-0 table #74: started
+2025/07/13-20:35:55.779 4388 Level-0 table #74: 368748 bytes OK
+2025/07/13-20:35:55.781 4388 Delete type=0 #68
+2025/07/13-20:35:55.782 4388 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/13-20:35:59.755 4388 Compacting 1@1 + 2@2 files
+2025/07/13-20:35:59.972 4388 Generated table #75@1: 44919 keys, 2205896 bytes
+2025/07/13-20:36:00.084 4388 Generated table #76@1: 31141 keys, 1935133 bytes
+2025/07/13-20:36:00.085 4388 Compacted 1@1 + 2@2 files => 4141029 bytes
+2025/07/13-20:36:00.085 4388 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/07/13-20:36:00.086 4388 Delete type=2 #70
+2025/07/13-20:36:00.086 4388 Delete type=2 #71
+2025/07/13-20:36:00.086 4388 Delete type=2 #74

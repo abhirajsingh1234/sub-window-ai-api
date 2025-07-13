@@ -7,7 +7,7 @@ def handle_action(action, name=None, contact=None, mail_id=None):
     Routes the action to correct function.
     """
     if action == 'add':
-        if not (name and contact and mail_id):
+        if not (name and contact or mail_id):
             return {'error': 'Missing name, contact or mail id for add'}, 400
         return add_user(name, contact, mail_id)
 
