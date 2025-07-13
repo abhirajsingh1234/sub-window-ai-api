@@ -3,12 +3,6 @@ from email.mime.text import MIMEText
 import os
 import dotenv
 
-
-emails = {'rajpurohitabhirajsinghvyasch@gmail.com':'owner of this email id is Abhiraj singh rajpurohit',
-    'karanshelar8775@gmail.com':'owner of this email id is Karan Shelar',
-    'siddhantparulekar5@gmail.com':'owner of this email id is Siddhant Parulekar',
-    'dimplerajpurohit203040@gmail.com':'owner of this email id is Dimple Rajpurohit'}
-
 def send_emails(recipient, subject, body):
     
     dotenv.load_dotenv()
