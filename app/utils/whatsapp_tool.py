@@ -10,15 +10,6 @@ import urllib.parse
 import os
 from dotenv import load_dotenv
 
-
-
-available_numbers = {
-    '9653148792':'kaanchan',
-    '8450995752':'Abhiraj singh rajpurohit',
-    '8828296303':'karan shelar',
-    '7620967264':'dimple rajpurohit',
-    '8094935507':'ishwar singh rajpurohit'}
-
 load_dotenv()
 
 def send_whatsapp_messages( phone_number, message,country_code="91"):
