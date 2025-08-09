@@ -22,7 +22,7 @@ def post_route():
         - action: 'add', 'update', or 'delete'
         - name (optional): name of user
         - contact (optional): contact number
-        - mail id (optional): email address
+        - mail_id (optional): email address
     
     Returns:
         JSON response based on action performed.
@@ -32,7 +32,7 @@ def post_route():
     action = data.get('action')
     name = data.get('name')
     contact = data.get('contact')
-    mail_id = data.get('mail id')
+    mail_id = data.get('mail_id')
 
     if not action:
         return jsonify({'error': 'Missing action'}), 400
