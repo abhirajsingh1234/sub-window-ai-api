@@ -1,3 +1,5 @@
-2025/08/16-06:59:41.411 31f8 Reusing MANIFEST C:\Users\kanchan\OneDrive\Desktop\chatbot\server\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/16-06:59:41.423 31f8 Recovering log #3
-2025/08/16-06:59:41.427 31f8 Reusing old log C:\Users\kanchan\OneDrive\Desktop\chatbot\server\chrome_profile\Default\Local Storage\leveldb/000003.log 
+2025/08/16-21:01:15.246 1c10 Reusing MANIFEST C:\Users\kanchan\OneDrive\Desktop\chatbot\server\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/16-21:01:15.265 1c10 Recovering log #3
+2025/08/16-21:01:15.266 1c10 Level-0 table #3: started
+2025/08/16-21:01:15.302 1c10 Level-0 table #3: 27000 bytes OK
+2025/08/16-21:01:15.453 1c10 Delete type=0 #3

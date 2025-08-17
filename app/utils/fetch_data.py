@@ -30,7 +30,7 @@ def mail_data():
     """
     try:
         data = unified_data()
-        return {entry['name']: entry['mail id'] for entry in data if 'name' in entry and 'mail id' in entry}
+        return {entry['name']: entry['mail_id'] for entry in data if 'name' in entry and 'mail_id' in entry}
     except Exception:
         return {}
 
