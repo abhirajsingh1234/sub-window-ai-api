@@ -23,17 +23,17 @@ def add_user(name, contact, mail_id):
     """
     data = load_data()
 
-    contact = None if len(contact) == 0 else contact
-    mail_id = None if len(mail_id) == 0 else mail_id
+    contact = None if not contact else contact
+    mail_id = None if not mail_id else mail_id
 
     for entry in data:
         if name == entry.get('name'):
             return {'error': 'Duplicate name detected'}
         if contact is not None and contact == entry.get('contact'):
             return {'error': 'Duplicate contact detected'}
-        if mail_id is not None and mail_id == entry.get('mail id'):
-            return {'error': 'Duplicate mail id detected'}
+        if mail_id is not None and mail_id == entry.get('mail_id'):
+            return {'error': 'Duplicate mail_id detected'}
 
-    data.append({'name': name, 'contact': contact, 'mail id': mail_id})
+    data.append({'name': name, 'contact': contact, 'mail_id': mail_id})
     save_data(data)
     return {'message': 'User added successfully', 'data': data}
